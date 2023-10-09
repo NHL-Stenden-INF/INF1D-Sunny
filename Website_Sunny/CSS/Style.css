@@ -5,7 +5,7 @@ font-family: 'Nexa', sans-serif;
 .header-container{
     display: grid;
     grid-template-columns: 5vw 88vw;
-    background-color: 51B2A2;
+    background-color: #51B2A2;
     width: 98vw;
     max-height: 20vh;
     font-family: 'Nexa', sans-serif;
