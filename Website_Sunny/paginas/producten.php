@@ -16,7 +16,7 @@
                 <div class="infosok">
                     <div>uni socks</div>
                     <div>Sunny</div>
-                    <div class="streep"></div>
+                    <hr class="streep">
                     <div class="kleur">kleur</div>
                     <div>
                         <div class="box_blauw"></div>
@@ -26,7 +26,7 @@
                         <div class="box_groen"></div>
                     </div>
                     <div>Nu kopen</div>
-                    <div class="streep">.</div>
+                    <hr class="streep">
                     <div class="productinfo">info</div>
                     <div class="productinfo">Het nieuwste design van sunny socks de uni sock. 
                     Dit is een confortable sok gemaakt van duurzaam katoen afkomstig uit Portugal.</div>
