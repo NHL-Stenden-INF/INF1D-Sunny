@@ -5,7 +5,7 @@ font-family: 'Nexa', sans-serif;
 .header-container{
     display: grid;
     grid-template-columns: 5vw 88vw;
-    background-color: 51B2A2;
+    background-color: #51B2A2;
     width: 98vw;
     max-height: 20vh;
     font-family: 'Nexa', sans-serif;
@@ -66,13 +66,14 @@ html{
 .box{
     display: flex;
     margin: 150px;
-    max width: 100vw;
+    max-width: 100vw;
 }
 .boxes{
     width: 25vw;
     height: auto;
     background-color: rgb(255, 255, 255);
     gap: 10px;
+    justify-content: ;
     /* border: solid 2px black; */
 }
 .infosok{

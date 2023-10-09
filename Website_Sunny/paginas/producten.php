@@ -7,9 +7,9 @@
     </head>
     <body>
       <header>
-            <!-- <?php
-                include ('../html/header.html');
-            ?> -->
+            <?php
+                include('../HTML/mijnheader.html');
+            ?>
         </header>
         <div class="box">
             <div class="boxes">
