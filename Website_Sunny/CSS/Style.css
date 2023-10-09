@@ -29,6 +29,9 @@ a{
     max-width: 15vw;
     max-height: 10vh;
 }
+footer{
+    margin-top: auto;
+}
 .footer-container{
     display: flex;
     justify-content: space-evenly;   
@@ -73,7 +76,7 @@ html{
     height: auto;
     background-color: rgb(255, 255, 255);
     gap: 10px;
-    justify-content: ;
+    align-items: center;
     /* border: solid 2px black; */
 }
 .infosok{
