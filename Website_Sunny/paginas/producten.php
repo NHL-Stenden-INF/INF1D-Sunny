@@ -34,7 +34,7 @@
             </div>
             <div class="boxes"></div>
             <div class="boxes">
-                <img src="../IMG/" alt="">
+                <img src="../img/Sunny_socks_uni_green.jpg" alt="groenesok" class="img">
             </div>
         </div>
         <?php

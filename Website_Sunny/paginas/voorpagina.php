@@ -10,6 +10,5 @@
             include ('../html/mijnheader.html');
             include ('../html/footer.html');
         ?>
-    
     </body>
 </html>
