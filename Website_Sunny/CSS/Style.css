@@ -1,4 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/nexa-bold');
+/* FONT NEXA GEBRUIKEN :
+font-family: 'Nexa', sans-serif;
+*/
 .footer-container{
     display: flex;
     justify-content: space-evenly;   
