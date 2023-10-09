@@ -7,16 +7,16 @@
     </head>
     <body>
       <header>
-            <?php
+            <!-- <?php
                 include ('../html/header.html');
-            ?>
+            ?> -->
         </header>
         <div class="box">
             <div class="boxes">
                 <div class="infosok">
                     <div>uni socks</div>
                     <div>Sunny</div>
-                    <div class="streep">streep</div>
+                    <div class="streep"></div>
                     <div class="kleur">kleur</div>
                     <div>
                         <div class="box_blauw"></div>
@@ -26,9 +26,10 @@
                         <div class="box_groen"></div>
                     </div>
                     <div>Nu kopen</div>
-                    <div class="streep">streep</div>
-                    <div class="productinfo"></div>
-                    <div class="productinfo"></div>
+                    <div class="streep">.</div>
+                    <div class="productinfo">info</div>
+                    <div class="productinfo">Het nieuwste design van sunny socks de uni sock. 
+                    Dit is een confortable sok gemaakt van duurzaam katoen afkomstig uit Portugal.</div>
                 </div>
             </div>
             <div class="boxes"></div>
@@ -37,7 +38,6 @@
             </div>
         </div>
         <?php
-        if
         ?>
         <footer>
             <?php
