@@ -6,11 +6,16 @@
     <title>Waar te koop</title>
 </head>
 <body>
-    <header>
-        <?php
-            include ('../html/mijnheader.html');
-            include ('../html/footer.html');
-        ?>
-    <h1><b>Waar te koop<b></h1>
+    <?php
+        include ('../html/mijnheader.html');
+    ?>
+    <h1><b>Waar te koop</b></h1>
+    <div>
+        <img src="../img/blue_striped.png" alt="Blue Striped">
+
+    </div>
+    <?php
+        include ('../html/footer.html');
+    ?>
 </body>
 </html>
