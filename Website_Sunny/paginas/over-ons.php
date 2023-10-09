@@ -6,6 +6,11 @@
         <link href=".//css/Style.css" style="text/css" rel="stylesheet">
     </head>
     <body>
+        <header>
+            <?php
+                include ('../html/header.html');
+            ?>
+        </header>
         <h1>Wie zijn wij?</h1>
         <p>Wij zijn Sunny. Ons doel is om duurzame sokken te maken die goed<br>
             zijn voor mens en planeet.</p>
@@ -38,5 +43,10 @@
                 Telefoonnummer: 062318493
             </p>
         </div>
+        <footer>
+            <?php
+                include ('../html/footer.html');
+            ?>
+        </footer>
     </body>
 </html>
