@@ -2,6 +2,33 @@
 /* FONT NEXA GEBRUIKEN :
 font-family: 'Nexa', sans-serif;
 */
+.header-container{
+    display: grid;
+    grid-template-columns: 5vw 88vw;
+    background-color: 51B2A2;
+    width: 98vw;
+    max-height: 20vh;
+    font-family: 'Nexa', sans-serif;
+}
+li{
+    display: inline-block;
+    margin-right: 1vw;
+}
+a{
+    color: white;
+}
+.items-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.img-header-div{
+    align-self: flex-end;
+}
+.sunnylogo-header-img{
+    max-width: 15vw;
+    max-height: 10vh;
+}
 .footer-container{
     display: flex;
     justify-content: space-evenly;   
@@ -19,20 +46,15 @@ h3{
 }
 ul{
     list-style-type: none;
-    font-family: 'Nexa', sans-serif;
+    font-family: 'Nexa', bold;
 }
 .contact-img-footer{
     max-width: 4vw;
     max-height: 4vh;
-    
     padding-right: 1vw;
 }
 .waartekopen-footer-img{
     border-radius: 50%;
     max-width: 5vw;
     max-height: 5vh;
-}
-html{
-	margin: 0px;
-	padding: 0px;
 }
