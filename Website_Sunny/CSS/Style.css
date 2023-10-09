@@ -34,7 +34,7 @@ a{
     justify-content: space-evenly;   
     width: 98vw;
     max-height: 20vh;
-    background-color: 51B2A2;
+    background-color: 51B2AB;
 }
 .sunnylogo-footer-img{
     max-width: 15vw;
@@ -57,4 +57,29 @@ ul{
     border-radius: 50%;
     max-width: 5vw;
     max-height: 5vh;
+}
+html{
+	margin: 0px;
+	padding: 0px;
+}
+/* Producten_pagina */
+.box{
+margin: 150px;
+}
+.boxes{
+display: flex;
+width: 25vw;
+height: auto;
+background-color: grey;
+gap: 10px;
+}
+.infosok{
+    display: flex;
+    flex-direction: column;
+}
+.streep{
+    line-height: 1px;
+    background-color: black;
+    max-width: 15vw;
+    margin-top: 8px;
 }
