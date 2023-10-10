@@ -14,7 +14,7 @@
         <div class="box">
             <div class="boxes">
                 <div class="infosok">
-                    <div class="titletext">uni socks</div>
+                    <div class="titletext">Uni socks</div>
                     <div class="sunnytekst">Sunny</div>
                     <hr class="streep">
                     <div class="kleur">Kleur</div>
@@ -27,7 +27,7 @@
                     </div>
                         <div><a href="waar-te-koop.php"><button class="koopknop" type="imput">Nu kopen</button></a></div>
                     <hr class="streep">
-                    <div class="#">Productinfo</div>
+                    <div class="productinfotitel">Productinfo</div>
                     <div class="productinfo">Het nieuwste design van sunny socks de uni sock. 
                     Dit is een confortable sok gemaakt van duurzaam katoen afkomstig uit Portugal.</div>
                 </div>

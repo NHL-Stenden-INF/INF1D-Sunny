@@ -5,6 +5,7 @@ font-family: 'Nexa', sans-serif;
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Nexa', sans-serif;
 }
 .header-container{
     display: grid;
@@ -89,12 +90,12 @@ html{
 .infosok{
     flex-direction: column;
     margin-top: 50px;
-    width: 17vw;
+    width: 20vw;
 }
 .streep{
     line-height: 1px;
     background-color: black;
-    max-width: 17vw;
+    max-width: 20vw;
     margin-top: 8px;
     margin-bottom: 4px;
 }
@@ -105,15 +106,22 @@ html{
 }
 .productinfo{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+.productinfotitel{
+    font-weight: 600;
 }
 .titletext{
     font-size: 40px;
     margin-bottom: 8px;
-    /* font-weight: 600;  */
+    font-weight: 600; 
 }
 .sunnytekst{
     font-size: 22px;
+    font-weight: 600;
+}
+.kleur{
+    font-weight: 600;
 }
 .kleuren{
     display: flex   ;
@@ -157,12 +165,13 @@ html{
 .koopknop{
     align-items: center;
     background-color: #000;
-    width: 17vw;
-    height: 50px;
+    width: 20vw;
+    height: 60px;
     color: white;
     font-size: 20px;
     margin-bottom: 35px;
     transition:  0.2s;
+    font-weight: 600;
 }
 .koopknop:hover{
     cursor: pointer;
