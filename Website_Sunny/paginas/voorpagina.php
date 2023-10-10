@@ -7,7 +7,7 @@
     </head>
     <body>
         <header id="voorpaginaheader">
-            <div class="header-container">
+            <div class="header-containervanlucas">
                 <div class="img-header-div">
                     <img class="sunnylogo-header-img" alt="sunnylogo-header" src="../IMG/sunny_logos_white.png">
                 </div>
