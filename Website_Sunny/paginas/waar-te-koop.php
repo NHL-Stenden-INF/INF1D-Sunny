@@ -9,8 +9,11 @@
     <?php
         include ('../html/mijnheader.html');
     ?>
-    <h1><b>Waar te koop</b></h1>
+    <h1 ><b>Waar te koop</b></h1>
     <div class="containershop">
+    <div>
+        <img src="../img/sokken_string.png" alt="Sokken string" class="imgstring">
+    </div>
         <div>
             <img src="../img/blue_striped.png" alt="Blue Striped" class="imgsok">
             <div>
@@ -25,6 +28,9 @@
                 <a href="https://bol.com"><img src="../img/bol.jpg" alt="Bol.com Logo" class="imgstore"></a>
             </div>
         </div>
+            <div>
+            <img src="../img/sokken_string.png" alt="Sokken string" class="imgstring">
+            </div>
     </div>
     <?php
         include ('../html/footer.html');
