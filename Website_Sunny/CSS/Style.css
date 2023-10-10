@@ -2,13 +2,22 @@
 /* FONT NEXA GEBRUIKEN :
 font-family: 'Nexa', sans-serif;
 */
+html, body{
+	margin: 0;
+	padding: 0;
+}
 .header-container{
     display: grid;
     grid-template-columns: 5vw 88vw;
     background-color: #51B2A2;
-    width: 98vw;
+    width: 100vw;
     max-height: 20vh;
     font-family: 'Nexa', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: 1; 
+    box-shadow: 0px 3.5px 1px rgba(0, 0, 0, 0.4);
 }
 .header-list{
     display: inline-block;
@@ -35,7 +44,7 @@ footer{
 .footer-container{
     display: flex;
     justify-content: space-evenly;   
-    width: 98vw;
+    width: 100vw;
     max-height: 20vh;
     background-color: #51B2AB;
 }
@@ -60,10 +69,6 @@ ul{
     border-radius: 50%;
     max-width: 5vw;
     max-height: 5vh;
-}
-html{
-	margin: 0px;
-	padding: 0px;
 }
 /* Producten_pagina */
 .box{
@@ -93,4 +98,24 @@ html{
 .img{
     max-width: 25vw;
     max-height: auto;
+}
+.banners{
+    width: 100%;
+    height: auto;   
+    margin-top: -180px;
+}
+.banner-tekst{
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+#uni-color{
+    top: 33%; 
+    color: black; 
+    font-size: 57px;
+}
+#nieuw-design{
+    top: 29.5%;
+    font-size: 15px;
+    font-weight: 100;
 }
