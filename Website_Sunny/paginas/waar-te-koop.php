@@ -9,7 +9,7 @@
     <?php
         include ('../html/mijnheader.html');
     ?>
-    <h1 ><b>Waar te koop</b></h1>
+    <h1 class="textcenter"><b>Waar te koop</b></h1>
     <div class="containershop">
     <div>
         <img src="../img/sokken_string.png" alt="Sokken string" class="imgstring">

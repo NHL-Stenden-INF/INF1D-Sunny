@@ -160,3 +160,9 @@ html{
     width: 100%;
     max-width: 100px;
 }
+.textcenter{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
