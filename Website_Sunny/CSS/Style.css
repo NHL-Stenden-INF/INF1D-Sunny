@@ -95,3 +95,17 @@ html{
     max-width: 25vw;
     max-height: auto;
 }
+/* Waar te koop pagina */
+.containershop{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+.imgsok{
+    width: 100%;
+    max-width: 300px;
+}
+.imgstore{
+    width: 100%;
+    max-width: 150px;
+}
