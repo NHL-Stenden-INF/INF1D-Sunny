@@ -14,20 +14,20 @@
         <div class="box">
             <div class="boxes">
                 <div class="infosok">
-                    <div>uni socks</div>
+                    <div class="titletext">uni socks</div>
                     <div>Sunny</div>
                     <hr class="streep">
                     <div class="kleur">kleur</div>
-                    <div>
+                    <div class="kleuren">
                         <div class="box_blauw"></div>
                         <div class="box_roze"></div>
                         <div class="box_geel"></div>
-                        <div class="box_groen"></div>
+                        <div class="box_rood"></div>
                         <div class="box_groen"></div>
                     </div>
                     <div>Nu kopen</div>
                     <hr class="streep">
-                    <div class="productinfo">info</div>
+                    <div class="#">info</div>
                     <div class="productinfo">Het nieuwste design van sunny socks de uni sock. 
                     Dit is een confortable sok gemaakt van duurzaam katoen afkomstig uit Portugal.</div>
                 </div>

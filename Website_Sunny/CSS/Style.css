@@ -82,18 +82,66 @@ html{
     gap: 10px;
 }
 .infosok{
-    flex-direction: column;
+    /* flex-direction: column; */
     margin-top: 20px;
+    width: 17vw;
 }
 .streep{
     line-height: 1px;
     background-color: black;
-    max-width: 15vw;
+    max-width: 17vw;
     margin-top: 8px;
+    margin-bottom: 4px;
 }
 .img{
     max-width: 25vw;
     max-height: auto;
+}
+.productinfo{
+    text-align: center;
+    margin-top: 6px;
+}
+.titletext{
+    font-size: 40px;
+    margin-bottom: 8px;
+    /* font-weight: 600;  */
+}
+.kleuren{
+    display: flex   ;
+    flex-direction: row;
+}
+.box_blauw{
+    background-color:#1e407a;
+}
+.box_rood{
+    background-color: #f15b39; 
+}
+.box_roze{
+    background-color: #e990b9;
+} 
+.box_groen{
+    background-color: #51B2AB;
+}
+.box_geel{
+    background-color: #fecd3e;
+}
+.box_blauw,
+.box_geel,
+.box_groen,
+.box_rood,
+.box_roze{
+    margin-right: 5px;
+    margin-bottom: 80px;
+    width: 40px;
+    height: 40px;
+    transition:  0.5s;
+}
+.box_blauw:hover,
+.box_geel:hover,
+.box_groen:hover,
+.box_rood:hover,
+.box_roze:hover{
+    box-shadow: 0 4px 0 0 #000;
 }
 /* Waar te koop pagina */
 .containershop{
