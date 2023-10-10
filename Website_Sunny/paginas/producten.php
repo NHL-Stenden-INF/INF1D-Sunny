@@ -14,27 +14,27 @@
         <div class="box">
             <div class="boxes">
                 <div class="infosok">
-                    <div>uni socks</div>
-                    <div>Sunny</div>
-                    <div class="streep"></div>
-                    <div class="kleur">kleur</div>
-                    <div>
-                        <div class="box_blauw"></div>
-                        <div class="box_roze"></div>
-                        <div class="box_geel"></div>
-                        <div class="box_groen"></div>
-                        <div class="box_groen"></div>
+                    <div class="titletext">uni socks</div>
+                    <div class="sunnytekst">Sunny</div>
+                    <hr class="streep">
+                    <div class="kleur">Kleur</div>
+                    <div class="kleuren">
+                        <button class="box_blauw"></button>
+                        <button class="box_roze"></button>
+                        <button class="box_geel"></button>
+                        <button class="box_rood"></button>
+                        <button class="box_groen"></button>
                     </div>
-                    <div>Nu kopen</div>
-                    <div class="streep">.</div>
-                    <div class="productinfo">info</div>
+                        <div><a href="waar-te-koop.php"><button class="koopknop" type="imput">Nu kopen</button></a></div>
+                    <hr class="streep">
+                    <div class="#">Productinfo</div>
                     <div class="productinfo">Het nieuwste design van sunny socks de uni sock. 
                     Dit is een confortable sok gemaakt van duurzaam katoen afkomstig uit Portugal.</div>
                 </div>
             </div>
             <div class="boxes"></div>
             <div class="boxes">
-                <img src="../img/Sunny_socks_uni_green.jpg" alt="groenesok" class="img">
+                <img src="../img/sokblauw_product.png" alt="groenesok" class="img">
             </div>
         </div>
         <?php
