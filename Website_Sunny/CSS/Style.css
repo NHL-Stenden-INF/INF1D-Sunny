@@ -99,7 +99,6 @@ html{
 .containershop{
     display: flex;
     justify-content: space-evenly;
-    margin: 100px;
 }
 .imgsok{
     width: 100%;
@@ -108,4 +107,8 @@ html{
 .imgstore{
     width: 100%;
     max-width: 150px;
+}
+.imgstring{
+    width: 100%;
+    max-width: 100px;
 }
