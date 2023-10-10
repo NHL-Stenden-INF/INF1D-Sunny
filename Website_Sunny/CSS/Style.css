@@ -14,10 +14,6 @@ font-family: 'Nexa', sans-serif;
     width: 100vw;
     max-height: 20vh;
     font-family: 'Nexa', sans-serif;
-    position: absolute;
-    top: 0;
-    left: 0; 
-    z-index: 1; 
     box-shadow: 0px 3.5px 1px rgba(0, 0, 0, 0.4);
 }
 .header-list{
@@ -71,6 +67,35 @@ ul{
     max-width: 5vw;
     max-height: 5vh;
 }
+/* voorpagina */
+.banners{
+    width: 100%;
+    height: auto;   
+    margin-top: -180px;
+}
+.banner-tekst{
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+#uni-color{
+    top: 33%; 
+    color: black; 
+    font-size: 57px;
+}
+#nieuw-design{
+    top: 29.5%;
+    font-size: 15px;
+    font-weight: 100;
+    max-height: 50vh;
+    align-items: center;
+}
+#voorpaginaheader{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: 1; 
+}
 /* Producten_pagina */
 .box{
     display: flex;
@@ -105,28 +130,6 @@ ul{
     max-height: 50vh;
     align-items: center;
 
-}
-.banners{
-    width: 100%;
-    height: auto;   
-    margin-top: -180px;
-}
-.banner-tekst{
-    position: absolute;
-    left: 50%; 
-    transform: translate(-50%, -50%);
-}
-#uni-color{
-    top: 33%; 
-    color: black; 
-    font-size: 57px;
-}
-#nieuw-design{
-    top: 29.5%;
-    font-size: 15px;
-    font-weight: 100;
-    max-height: 50vh;
-    align-items: center;
 }
 .productinfo{
     text-align: center;
