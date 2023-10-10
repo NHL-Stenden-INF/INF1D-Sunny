@@ -143,3 +143,17 @@ html{
 .box_roze:hover{
     box-shadow: 0 4px 0 0 #000;
 }
+/* Waar te koop pagina */
+.containershop{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+.imgsok{
+    width: 100%;
+    max-width: 300px;
+}
+.imgstore{
+    width: 100%;
+    max-width: 150px;
+}
