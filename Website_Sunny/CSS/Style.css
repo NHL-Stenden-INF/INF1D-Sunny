@@ -2,7 +2,7 @@
 /* FONT NEXA GEBRUIKEN :
 font-family: 'Nexa', sans-serif;
 */
-html, body{
+html,body{
 	margin: 0;
 	padding: 0;
     font-family: 'Nexa', sans-serif;
@@ -188,6 +188,25 @@ ul{
     box-shadow: 0 4px 0 0 #000;
     cursor: pointer;
 }
+    .box_blauw{
+        background-image: url('../img/green_uni.png'); 
+    }
+    .kleuren button.box_roze.active ~ .img {
+        background-image: url(''); /* Replace with your image URL */
+    }
+    
+    .kleuren button.box_geel.active ~ .img {
+        background-image: url('geel.jpg'); /* Replace with your image URL */
+    }
+    
+    .kleuren button.box_rood.active ~ .img {
+        background-image: url('rood.jpg'); /* Replace with your image URL */
+    }
+    
+    .kleuren button.box_groen.active ~ .img {
+        background-image: url('groen.jpg'); /* Replace with your image URL */
+    }
+
 .koopknop{
     align-items: center;
     background-color: #000;
@@ -224,4 +243,89 @@ ul{
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 20px;
+}
+/*Over ons pagina*/
+#sunny_background_logo{
+    opacity: 10%;
+    width: 100%;
+    height: 100%;
+    position: 0px;
+}
+#wie_zijn_wij{
+    position: absolute;
+    text-align: center;
+    top: 15vw;
+    left: 10vw;
+    right: 10vw;
+    font-family: 'nexa', sans-serif;
+    font-size: 32px;
+    width: 80%
+}
+#information_grid{
+    display: grid;
+    grid-template-columns: 8% 26% 3% 26% 3% 26% 8%;
+    grid-template-rows: 600px;
+}
+.information_grid-item{
+    width: 100%;
+    height: 80%;
+    background-color: grey;
+    text-align: center;
+    font-family: 'nexa', sans-serif;
+    position: relative;
+}
+.information_title{
+    margin-top: 20%;
+}
+#over_ons_duurzaamheid{
+    grid-column: 2;
+}
+#over_ons_duurzaamheid_png{
+    width: 40%;
+    height: 30%;
+}
+#over_ons_geschiedenis{
+    grid-column: 4;
+}
+#over_ons_geschiedenis_png{
+    width: 40%;
+    height: 30%;
+}
+#over_ons_contact{
+    grid-column: 6;
+}
+#over_ons_contact_png{
+    width: 40%;
+    height: 30%;
+}
+.information_box_deco_top{
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#information_box_deco_bottom_1{
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 11%;
+}
+#information_box_deco_bottom_2{
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 31%;
+}
+#information_box_deco_bottom_3{
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 35.8%;
 }
