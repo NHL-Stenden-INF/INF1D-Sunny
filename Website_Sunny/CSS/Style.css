@@ -273,22 +273,24 @@ ul{
 }
 #information_grid{
     display: grid;
-    grid-template-columns: 8% 26% 3% 26% 3% 26% 8%;
-    grid-template-rows: 600px;
+    grid-template-columns: 113.94px 394.992px 45.576px 394.992px 45.576px 394.992px ;
+    grid-template-rows: 550px 300px;
 }
 .information_grid-item{
     width: 100%;
-    height: 80%;
-    background-color: grey;
+    height: 100%;
+    background-color: #51B2AB;
     text-align: center;
     font-family: 'nexa', sans-serif;
     position: relative;
+    z-index: 1;
 }
 .information_title{
     margin-top: 20%;
 }
 #over_ons_duurzaamheid{
     grid-column: 2;
+    grid-row: 1;
 }
 #over_ons_duurzaamheid_png{
     width: 40%;
@@ -296,6 +298,7 @@ ul{
 }
 #over_ons_geschiedenis{
     grid-column: 4;
+    grid-row: 1;
 }
 #over_ons_geschiedenis_png{
     width: 40%;
@@ -303,39 +306,72 @@ ul{
 }
 #over_ons_contact{
     grid-column: 6;
+    grid-row: 1;
 }
 #over_ons_contact_png{
     width: 40%;
     height: 30%;
 }
-.information_box_deco_top{
+#information_box_deco_top_1{
+    grid-column: 2;
+    grid-row: 1;
     width: 60%;
     height: 5%;
     background-color: white;
     margin-left: 20%;
     margin-right: 20%;
+    z-index: 2;
 }
 #information_box_deco_bottom_1{
+    grid-column: 2;
+    grid-row: 1;
     width: 60%;
     height: 5%;
     background-color: white;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 11%;
+    margin-top: 522.5px;
+    z-index: 2;
+}
+#information_box_deco_top_2{
+    grid-column: 4;
+    grid-row: 1;
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    z-index: 2;
 }
 #information_box_deco_bottom_2{
+    grid-column: 4;
+    grid-row: 1;
     width: 60%;
     height: 5%;
     background-color: white;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 31%;
+    margin-top: 522.5px;
+    z-index: 2;
+}
+#information_box_deco_top_3{
+    grid-column: 6;
+    grid-row: 1;
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    z-index: 2;
 }
 #information_box_deco_bottom_3{
+    grid-column: 6;
+    grid-row: 1;
     width: 60%;
     height: 5%;
     background-color: white;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 35.8%;
+    margin-top: 522.5px;
+    z-index: 2;
 }
