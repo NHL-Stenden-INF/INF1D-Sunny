@@ -37,6 +37,8 @@
             <div class="boxes"></div>
                 <div class="boxes">
                     <?php
+                        $imagePath = '../img/sokblauwproduct.png';
+                        $geslecteerdekleur = 'blauw';
                         if(isset($_POST['color'])){ 
                         $geslecteerdekleur = $_POST['color'];
                         $imagePath ="../img/" . getImagePathForColor($geslecteerdekleur);

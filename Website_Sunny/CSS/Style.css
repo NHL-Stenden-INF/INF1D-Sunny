@@ -197,24 +197,6 @@ ul{
     box-shadow: 0 4px 0 0 #000;
     cursor: pointer;
 }
-    .box_blauw{
-        background-image: url('../img/green_uni.png'); 
-    }
-    .kleuren button.box_roze.active ~ .img {
-        background-image: url(''); /* Replace with your image URL */
-    }
-    
-    .kleuren button.box_geel.active ~ .img {
-        background-image: url('geel.jpg'); /* Replace with your image URL */
-    }
-    
-    .kleuren button.box_rood.active ~ .img {
-        background-image: url('rood.jpg'); /* Replace with your image URL */
-    }
-    
-    .kleuren button.box_groen.active ~ .img {
-        background-image: url('groen.jpg'); /* Replace with your image URL */
-    }
 
 .koopknop{
     align-items: center;
