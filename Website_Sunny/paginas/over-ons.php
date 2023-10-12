@@ -51,6 +51,7 @@
                 <p>
                     Adres: Van Schaikweg 94, Emmen<br>
                     Telefoonnummer: 062318493
+                    Email: sunny@info.com
                 </p>
                 
             </div>
