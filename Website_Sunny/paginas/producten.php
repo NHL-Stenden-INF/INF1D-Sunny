@@ -19,11 +19,13 @@
                     <hr class="streep">
                     <div class="kleur">Kleur</div>
                     <div class="kleuren">
-                        <button class="box_blauw"></button>
-                        <button class="box_roze"></button>
-                        <button class="box_geel"></button>
-                        <button class="box_rood"></button>
-                        <button class="box_groen"></button>
+                        <form method="post" action="">
+                            <button type="submit" name="color" value="blauw" class="box_blauw"></button>
+                            <button type="submit" name="color" value="roze" class="box_roze"></button>
+                            <button type="submit" name="color" value="geel" class="box_geel"></button>
+                            <button type="submit" name="color" value="rood" class="box_rood"></button>
+                            <button type="submit" name="color" value="groen" class="box_groen"></button>
+                         </form>
                     </div>
                         <div><a href="waar-te-koop.php"><button class="koopknop" type="imput">Nu kopen</button></a></div>
                     <hr class="streep">
@@ -33,12 +35,30 @@
                 </div>
             </div>
             <div class="boxes"></div>
-            <div class="boxes">
-                <img src="../img/sokblauw_product.png" alt="groenesok" class="img">
+                <div class="boxes">
+                    <?php
+                        if(isset($_POST['color'])){ 
+                        $geslecteerdekleur = $_POST['color'];
+                        $imagePath ="../img/" . getImagePathForColor($geslecteerdekleur);
+                        $buttonClass = "box_" . $geslecteerdekleur;
+                        }
+
+
+                        function getImagePathForColor($color) {
+                        $imagePaths = [
+                            'blauw' => 'sokblauwproduct.png',
+                            'roze' => 'sokrozeproduct.png',
+                            'geel' => 'sokgeelproduct.png',
+                            'rood' => 'sokroodproduct.png',
+                            'groen' => 'sokgroenproduct.png',   
+                        ];
+
+                        return $imagePaths[$color];
+                        }
+                        echo '<img src="' . $imagePath . '" alt="' . $geslecteerdekleur . '" class="img">';
+                    ?>
+                </div>
             </div>
-        </div>
-        <?php
-        ?>
         <footer>
             <?php
                 include ('../html/footer.html');
