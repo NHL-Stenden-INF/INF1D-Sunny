@@ -14,7 +14,7 @@
                 <div class="items-container">
                     <ul>
                         <li class="header-list"><a href="producten.php"><h3>Producten</h3></a></li>
-                        <li class="header-list"><a href="waar-te-koop.php"><h3>Dit producten halen</h3></a></li>
+                        <li class="header-list"><a href="waar-te-koop.php"><h3>Deze producten halen</h3></a></li>
                         <li class="header-list"><a href="over_ons.php"><h3>Over Sunny</h3></a></li>
                     </ul>
                 </div>
