@@ -67,6 +67,9 @@ ul{
     max-width: 5vw;
     max-height: 5vh;
 }
+.footertekst{
+    color: white;
+}
 /* Voorpagina */
 .banners{
     width: 100%;
