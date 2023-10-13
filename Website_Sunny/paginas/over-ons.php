@@ -35,12 +35,12 @@
             <div id="information_box_deco_bottom_1"></div>
             <div id="information_box_deco_top_2"></div>
             <div id="over_ons_geschiedenis" class="information_grid-item">
-                <h2 class="information_title">Onze Geschiedenis</h2>
+                <h2 class="information_title">Verkoop wijze</h2>
                 <img src="../img/shopping-cart.png" alt="Onze Geschiedenis" id="over_ons_geschiedenis_png">
                 <p>
-                    Voorbeeld Tekst<br>
-                    Voorbeeld Tekst<br>
-                    Voorbeeld Tekst
+                Wij verkopen onze sokken via<br>
+                 de webshop bol.com en <br>
+                 online of in de winkel bij de hema!<br>
                 </p>  
             </div>
             <div id="information_box_deco_bottom_2"></div>
