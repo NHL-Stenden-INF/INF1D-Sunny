@@ -329,7 +329,7 @@ ul{
 }
 #information_grid{
     display: grid;
-    grid-template-columns: 113.94px 394.992px 45.576px 394.992px 45.576px 394.992px ;
+    grid-template-columns: 8vw 26vw 3vw 26vw 3vw 26vw 8vw;
     grid-template-rows: 550px 300px;
 }
 .information_grid-item{
