@@ -19,8 +19,12 @@
                     <h1 id="uni-color" class="banner-tekst">Uni color</h1>
                 </div>
             </div>
-        <?php
-            include ('../html/footer.html');
-        ?>
+        <footer>
+            <?php
+                include ('../html/footer.html');
+            ?>
+        </footer>
     </body>
 </html>
+
+
