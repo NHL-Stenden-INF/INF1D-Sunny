@@ -313,7 +313,7 @@ ul{
 #information_grid{
     display: grid;
     grid-template-columns: 8vw 26vw 3vw 26vw 3vw 26vw 8vw;
-    grid-template-rows: 550px 300px;
+    grid-template-rows: 36.3875092vw 19.8477323vw;
 }
 .information_grid-item{
     width: 100%;
@@ -369,7 +369,7 @@ ul{
     background-color: white;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 522.5px;
+    margin-top: 34.568135vw;
     z-index: 2;
 }
 #information_box_deco_top_2{
@@ -390,7 +390,7 @@ ul{
     background-color: white;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 522.5px;
+    margin-top: 34.568135vw;
     z-index: 2;
 }
 #information_box_deco_top_3{
@@ -411,6 +411,6 @@ ul{
     background-color: white;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 522.5px;
+    margin-top: 34.568135vw;
     z-index: 2;
 }
