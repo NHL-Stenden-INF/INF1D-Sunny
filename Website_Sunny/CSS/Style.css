@@ -27,6 +27,7 @@ a{
     color: white;
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .img-header-div{
     align-self: flex-end;
@@ -55,6 +56,7 @@ footer{
 h3{
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 ul{
     list-style-type: none;
@@ -75,9 +77,12 @@ ul{
 }
 /* Voorpagina */
 .banners{
-    width: 100%;
-    height: auto;   
+    width: 100%;   
     margin-top: -28vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .banner-tekst{
     position: absolute;
