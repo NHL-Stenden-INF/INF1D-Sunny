@@ -2,12 +2,13 @@
 <html lang="en">
     <head>
         <title>Sunny Socks</title>
+        <link rel="icon" href="../img/favicon.png" type="image/png">
         <meta charset="UTF-8">
         <link href="../css/Style.css" style="text/css" rel="stylesheet">
     </head>
     <body>
         <?php
-            include ('../html/mijnheader.html');
+            include ('../HTML/mijnheader.html');
         ?>
             <div class="banner_sok"> 
                 <div>
