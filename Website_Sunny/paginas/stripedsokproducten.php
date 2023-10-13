@@ -14,7 +14,7 @@
         <div class="box">
             <div class="boxes">
                 <div class="infosok">
-                    <div class="titletext">Uni socks</div>
+                    <div class="titletext">Striped socks</div>
                     <div class="sunnytekst">Sunny</div>
                     <hr class="streep">
                     <div class="kleur">Kleur</div>
@@ -30,14 +30,14 @@
                         <div><a href="waar-te-koop.php"><button class="koopknop" type="imput">Nu kopen</button></a></div>
                     <hr class="streep">
                     <div class="productinfotitel">Productinfo</div>
-                    <div class="productinfo">Het nieuwste design van sunny socks de uni sock. 
-                    Dit is een confortable sok gemaakt van duurzaam katoen afkomstig uit Portugal.</div>
+                    <div class="productinfo">Het originele design van sunny socks dit desgin bevat 2 strepen boven aan de sok en een witte hak.
+                         Het is een duurzame sok gemaakt door katoen afkomstig uit Portugal.</div>
                 </div>
             </div>
             <div class="boxes"></div>
                 <div class="boxes">
                     <?php
-                        $imagePath = '../img/sokblauwproduct.png';
+                        $imagePath = '../img/stripedblauwproduct.png';
                         $geslecteerdekleur = 'blauw';
                         if(isset($_POST['color'])){ 
                         $geslecteerdekleur = $_POST['color'];
@@ -48,11 +48,11 @@
 
                         function getImagePathForColor($color) {
                         $imagePaths = [
-                            'blauw' => 'sokblauwproduct.png',
-                            'roze' => 'sokrozeproduct.png',
-                            'geel' => 'sokgeelproduct.png',
-                            'rood' => 'sokroodproduct.png',
-                            'groen' => 'sokgroenproduct.png',   
+                            'blauw' => 'stripedblauwproduct.png',
+                            'roze' => 'stripedrozeproduct.png',
+                            'geel' => 'stripedgeelproduct.png',
+                            'rood' => 'stripedroodproduct.png',
+                            'groen' => 'stripedgroenproduct.png',   
                         ];
 
                         return $imagePaths[$color];
@@ -61,9 +61,9 @@
                     ?>
                 </div>
             </div>
-            <div class="pijltekst">Striped soks
+            <div class="pijltekst">Uni socks
                 <div>
-                  <a href="stripedsokproducten.php"><i><img src="../img/pijlnaarsokken.png" alt="pijl" class="pijl"></i></a>
+                  <a href="producten.php"><i><img src="../img/pijlnaarsokken.png" alt="pijl" class="pijl"></i></a>
                 </div>
             </div>
         <footer>
