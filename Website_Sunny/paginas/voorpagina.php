@@ -16,14 +16,17 @@
                 </div>
                 <div class="tekst-in-banner">
                     <p id="nieuw-design" class="banner-tekst">Nieuw Design</p>
-                    <h1 id="uni-color" class="banner-tekst">Uni color</h1>
+                    <h1 id="uni-color" class="banner-tekst">Uni Color</h1>
+                    <p id="tekst_unicolor" class="banner-tekst">Ervaar comfort en stijl nu met onze nieuwe <br> Uni Color socks!</p>
+                    <div id="bestel-nu">
+                        <a href="../paginas/waar-te-koop.php" class="banner-knop">
+                        <button class="banner-knop"> Bestel nu! </button>
+                    </div>
                 </div>
             </div>
-        <footer>
-            <?php
-                include ('../html/footer.html');
-            ?>
-        </footer>
+        <?php
+            include ('../html/footer.html');
+        ?>
     </body>
 </html>
 
