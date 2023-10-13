@@ -312,7 +312,7 @@ ul{
 }
 #information_grid{
     display: grid;
-    grid-template-columns: 8vw 23vw 3vw 23vw 3vw 23vw 8vw;
+    grid-template-columns: 8vw 26vw 3vw 26vw 3vw 26vw 8vw;
     grid-template-rows: 550px 300px;
 }
 .information_grid-item{
