@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Sunny Socks</title>
+        <link rel="icon" href="../img/favicon.png" type="image/png">
         <meta charset="UTF-8">
         <link href="../css/style.css" style="text/css" rel="stylesheet">
     </head>

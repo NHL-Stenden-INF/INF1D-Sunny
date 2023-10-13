@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/Style.css" type="text/css">
     <title>Waar te koop</title>
+    <link rel="icon" href="../img/favicon.png" type="image/png">
 </head>
 <body>
     <?php
