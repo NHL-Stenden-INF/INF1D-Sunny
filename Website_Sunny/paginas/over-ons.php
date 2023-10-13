@@ -37,7 +37,7 @@
             <div id="information_box_deco_top_2"></div>
             <div id="over_ons_geschiedenis" class="information_grid-item">
                 <h2 class="information_title">Verkoop wijze</h2>
-                <img src="../img/shopping-cart.png" alt="Onze Geschiedenis" id="over_ons_geschiedenis_png">
+                <img src="../img/shopping-cart.png" alt="Verkoopwijze" id="over_ons_geschiedenis_png">
                 <p>
                 Wij verkopen onze sokken via<br>
                  de webshop bol.com en <br>
