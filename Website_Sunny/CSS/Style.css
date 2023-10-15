@@ -58,12 +58,8 @@ a{
     flex-direction: row;
 }
 footer{
-<<<<<<< HEAD
-    background-color: #51B2AB;
-=======
     margin-top: auto;
     background-color: #51B2A2;
->>>>>>> a592a958f9ade2ae3996b87683ba51a0ee25a179
 }
 .footer-container{
     display: flex;
@@ -100,23 +96,7 @@ ul{
 .footertekst{
     color: white;
 }
-<<<<<<< HEAD
-=======
-.footer-container .social-links a {
-    display: inline-block;
-    height: 35px;
-    width: 35px;
-    background-color: #51B2A2;
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
-    transition: all 0.5s ease;
-}
 
->>>>>>> a592a958f9ade2ae3996b87683ba51a0ee25a179
 .footer-container .social-links a:hover {
     color: #24262b;
     background-color: #ffffff;
