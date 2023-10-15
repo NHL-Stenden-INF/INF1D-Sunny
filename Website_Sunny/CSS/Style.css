@@ -17,6 +17,9 @@ html,body{
     ul{
         max-height: 5vh;
     }
+    header{
+        position: relative;
+    }
 }
 .header-container{
     background-color: #51B2A2;
