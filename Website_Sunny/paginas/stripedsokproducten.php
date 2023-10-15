@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="boxes"></div>
-                <div class="boxes">
+                <div id="foto"class="boxes">
                     <?php
                         $imagePath = '../img/stripedblauwproduct.png';
                         $geslecteerdekleur = 'blauw';

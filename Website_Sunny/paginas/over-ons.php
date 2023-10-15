@@ -12,6 +12,33 @@
             <?php
                 include ('../html/mijnheader.html');
             ?>
+                 <?php
+            $backgroundColor = '#1e407a'; 
+
+            if (isset($_POST['color'])) {
+                $selectedColor = $_POST['color'];
+                
+                switch ($selectedColor) {
+                    case 'blauw':
+                        $backgroundColor = '#1e407a';
+                        break;
+                    case 'roze':
+                        $backgroundColor = '#e990b9';
+                        break;
+                    case 'geel':
+                        $backgroundColor = '#fecd3e';
+                        break;
+                    case 'rood':
+                        $backgroundColor = '#fl5b39';
+                        break;
+                    case 'groen':
+                        $backgroundColor = '#5lb2a2';
+                        break;
+                    default:
+                        break;
+                }
+            }
+        ?>
         </header>
         <div id="wie_zijn_wij">
             <h1>Wie zijn wij?</h1>

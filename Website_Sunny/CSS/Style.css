@@ -29,6 +29,7 @@ html,body{
 header {
     position: sticky;
     top: 0;
+    z-index: 10;
   }
 a{
     color: white;
@@ -57,12 +58,17 @@ a{
     flex-direction: row;
 }
 footer{
+<<<<<<< HEAD
     background-color: #51B2AB;
+=======
+    margin-top: auto;
+    background-color: #51B2A2;
+>>>>>>> a592a958f9ade2ae3996b87683ba51a0ee25a179
 }
 .footer-container{
     display: flex;
     justify-content: space-evenly;   
-    background-color: #51B2AB;
+    background-color: #51B2A2;
     max-width: 100vw;
     max-height: auto;
 }
@@ -94,6 +100,23 @@ ul{
 .footertekst{
     color: white;
 }
+<<<<<<< HEAD
+=======
+.footer-container .social-links a {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background-color: #51B2A2;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+}
+
+>>>>>>> a592a958f9ade2ae3996b87683ba51a0ee25a179
 .footer-container .social-links a:hover {
     color: #24262b;
     background-color: #ffffff;
@@ -118,7 +141,7 @@ ul{
 .copyright{
     text-align: center;
     color: white;
-    background-color: #51B2AB;
+    background-color: #51B2A2;
     height: 50px;
 }
 .streep-footer{
@@ -191,29 +214,35 @@ ul{
 /* Producten_pagina */
 .box{
     display: flex;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 250px;
     max-width: 100vw;
-
+    flex-wrap: wrap;
+    gap: 24vw;
+    justify-content: center;
+}
+#foto{
+    margin-top: 50px;
+    max-width: 25vw;
 }
 .boxes{
-    width: 25vw;
-    height: 50vh;
+    max-width: 25vw;
+    max-height: 35vh;
     background-color: rgb(255, 255, 255);
     gap: 10px;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .infosok{
     flex-direction: column;
     margin-top: 50px;
-    width: 20vw;
+    max-width: 25vw;
+    align-items: center;
 }
 .streep{
     line-height: 1px;
     background-color: black;
-    max-width: 20vw;
+    max-width: 25vw;
     margin-top: 8px;
     margin-bottom: 4px;
 }
@@ -257,7 +286,7 @@ ul{
     background-color: #e990b9;
 } 
 .box_groen{
-    background-color: #51B2AB;
+    background-color: #51B2A2;
 }
 .box_geel{
     background-color: #fecd3e;
@@ -354,7 +383,7 @@ ul{
 .information_grid-item{
     width: 100%;
     height: 100%;
-    background-color: #51B2AB;
+    background-color: #51B2A2;
     text-align: center;
     font-family: 'nexa', sans-serif;
     position: relative;
