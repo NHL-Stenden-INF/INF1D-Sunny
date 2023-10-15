@@ -200,9 +200,19 @@ ul{
     margin-top: 50px;
     margin-bottom: 250px;
     max-width: 100vw;
-    flex-wrap: wrap;
-    gap: 24vw;
+    gap: 30vw;
     justify-content: center;
+    flex-direction: row-reverse;
+}
+@media (max-width: 900px) {
+    .box_blauw,
+    .box_geel,
+    .box_groen,
+    .box_rood,
+    .box_roze,
+    .kleur{
+      display: none;
+    }
 }
 #foto{
     margin-top: 50px;
@@ -214,12 +224,11 @@ ul{
     background-color: rgb(255, 255, 255);
     gap: 10px;
     justify-content: center;
-    flex-wrap: wrap;
 }
 .infosok{
     flex-direction: column;
     margin-top: 50px;
-    max-width: 25vw;
+    width: 25vw;
     align-items: center;
 }
 .streep{
@@ -244,7 +253,7 @@ ul{
     font-weight: 600;
 }
 .titletext{
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 8px;
     font-weight: 600; 
 }
@@ -280,11 +289,12 @@ ul{
 .box_rood,
 .box_roze{
     margin-top: 5px;
-    margin-right: 5px;
+    margin-right: 1px;
     margin-bottom: 80px;
     width: 40px;
     height: 40px;
     transition:  0.5s;
+    flex-wrap: nowrap;
 }
 .box_blauw:hover,
 .box_geel:hover,
@@ -306,6 +316,7 @@ ul{
     transition:  0.2s;
     font-weight: 600;
 }
+
 .koopknop:hover{
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px #000;
@@ -324,6 +335,7 @@ ul{
 .containershop{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: row wrap;
 }
 .imgsok{
     width: 100%;
@@ -460,5 +472,127 @@ ul{
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 34.568135vw;
+    z-index: 2;
+}
+/*Over ons pagina telefoon versie*/
+#sunny_background_logo{
+    opacity: 10%;
+    width: 100%;
+    height: 100%;
+    position: 0px;
+}
+#wie_zijn_wij_tel{
+    position: absolute;
+    text-align: center;
+    top: 20vw;
+    left: 10vw;
+    right: 10vw;
+    font-family: 'nexa', sans-serif;
+    font-size: 16px;
+    width: 80%
+}
+#information_grid_tel{
+    display: grid;
+    grid-template-columns: 20vw 60vw 20vw;
+    grid-template-rows: 10vw 80vw 10vw 80vw 10vw 80vw 20vw;
+}
+.information_grid-item{
+    width: 100%;
+    height: 100%;
+    background-color: #51B2A2;
+    font-size: medium;
+    text-align: center;
+    font-family: 'nexa', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+.information_title{
+    margin-top: 20%;
+}
+#over_ons_duurzaamheid{
+    grid-column: 2;
+    grid-row: 2;
+}
+#over_ons_duurzaamheid_png{
+    width: 40%;
+    height: 30%;
+}
+#over_ons_geschiedenis{
+    grid-column: 2;
+    grid-row: 4;
+}
+#over_ons_geschiedenis_png{
+    width: 40%;
+    height: 30%;
+}
+#over_ons_contact{
+    grid-column: 2;
+    grid-row: 6;
+}
+#over_ons_contact_png{
+    width: 40%;
+    height: 30%;
+}
+#information_box_deco_top_1_tel{
+    grid-column: 2;
+    grid-row: 2;
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    z-index: 2;
+}
+#information_box_deco_bottom_1_tel{
+    grid-column: 2;
+    grid-row: 2;
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 76vw;
+    z-index: 2;
+}
+#information_box_deco_top_2_tel{
+    grid-column: 2;
+    grid-row: 4;
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    z-index: 2;
+}
+#information_box_deco_bottom_2_tel{
+    grid-column: 2;
+    grid-row: 4;
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 76vw;
+    z-index: 2;
+}
+#information_box_deco_top_3_tel{
+    grid-column: 2;
+    grid-row: 6;
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    z-index: 2;
+}
+#information_box_deco_bottom_3_tel{
+    grid-column: 2;
+    grid-row: 6;
+    width: 60%;
+    height: 5%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 76vw;
     z-index: 2;
 }
