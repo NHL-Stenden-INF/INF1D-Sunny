@@ -5,6 +5,7 @@
         <link rel="icon" href="../img/favicon.png" type="image/png">
         <meta charset="UTF-8">
         <link href="../css/style.css" style="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
       <header>
@@ -35,8 +36,8 @@
                     Dit is een confortable sok gemaakt van duurzaam katoen afkomstig uit Portugal.</div>
                 </div>
             </div>
-            <div class="boxes"></div>
-                <div class="boxes">
+            <!-- <div class="boxes"></div> -->
+                <div id="foto"class="boxes">
                     <?php
                         $imagePath = '../img/sokblauwproduct.png';
                         $geslecteerdekleur = 'blauw';
@@ -45,8 +46,6 @@
                         $imagePath ="../img/" . getImagePathForColor($geslecteerdekleur);
                         $buttonClass = "box_" . $geslecteerdekleur;
                         }
-
-
                         function getImagePathForColor($color) {
                         $imagePaths = [
                             'blauw' => 'sokblauwproduct.png',
