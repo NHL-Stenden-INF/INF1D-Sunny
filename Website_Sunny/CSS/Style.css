@@ -320,6 +320,7 @@ ul{
 .containershop{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: row wrap;
 }
 .imgsok{
     width: 100%;
