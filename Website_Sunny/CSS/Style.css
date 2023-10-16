@@ -506,7 +506,7 @@ ul{
 .information_title{
     margin-top: 20%;
 }
-#over_ons_duurzaamheid{
+#over_ons_duurzaamheid_tel{
     grid-column: 2;
     grid-row: 2;
 }
@@ -514,7 +514,7 @@ ul{
     width: 40%;
     height: 30%;
 }
-#over_ons_geschiedenis{
+#over_ons_geschiedenis_tel{
     grid-column: 2;
     grid-row: 4;
 }
@@ -522,7 +522,7 @@ ul{
     width: 40%;
     height: 30%;
 }
-#over_ons_contact{
+#over_ons_contact_tel{
     grid-column: 2;
     grid-row: 6;
 }

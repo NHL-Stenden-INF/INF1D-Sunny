@@ -20,7 +20,7 @@
         <img src="../img/sunny_logos_blue.png" id="sunny_background_logo" alt="Background Logo">
         <div id=information_grid_tel>
             <div id="information_box_deco_top_1_tel"></div>
-            <div id="over_ons_duurzaamheid" class="information_grid-item">
+            <div id="over_ons_duurzaamheid_tel" class="information_grid-item">
                 <h2 class="information_title">Duurzaamheid</h2>
                 <img src="../img/hand-holding-seeding.png" alt="Duurzaamheid" id="over_ons_duurzaamheid_png">
                 <p> 
@@ -35,7 +35,7 @@
             </div>
             <div id="information_box_deco_bottom_1_tel"></div>
             <div id="information_box_deco_top_2_tel"></div>
-            <div id="over_ons_geschiedenis" class="information_grid-item">
+            <div id="over_ons_geschiedenis_tel" class="information_grid-item">
                 <h2 class="information_title">Verkoop wijze</h2>
                 <img src="../img/shopping-cart.png" alt="Verkoopwijze" id="over_ons_geschiedenis_png">
                 <p>
@@ -46,7 +46,7 @@
             </div>
             <div id="information_box_deco_bottom_2_tel"></div>
             <div id="information_box_deco_top_3_tel"></div>
-            <div id="over_ons_contact" class="information_grid-item">  
+            <div id="over_ons_contact_tel" class="information_grid-item">  
                 <h2 class="information_title">Contact Gegevens</h2>
                 <img src="../img/circle-phone-flip.png" alt="Contact Gegevens" id="over_ons_contact_png">
                 <p>
