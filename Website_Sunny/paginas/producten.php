@@ -35,8 +35,8 @@
                     Dit is een confortable sok gemaakt van duurzaam katoen afkomstig uit Portugal.</div>
                 </div>
             </div>
-            <div class="boxes"></div>
-                <div class="boxes">
+            <!-- <div class="boxes"></div> -->
+                <div id="foto"class="boxes">
                     <?php
                         $imagePath = '../img/sokblauwproduct.png';
                         $geslecteerdekleur = 'blauw';
@@ -45,8 +45,6 @@
                         $imagePath ="../img/" . getImagePathForColor($geslecteerdekleur);
                         $buttonClass = "box_" . $geslecteerdekleur;
                         }
-
-
                         function getImagePathForColor($color) {
                         $imagePaths = [
                             'blauw' => 'sokblauwproduct.png',
