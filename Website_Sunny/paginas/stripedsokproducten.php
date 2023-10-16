@@ -35,7 +35,6 @@
                          Het is een duurzame sok gemaakt door katoen afkomstig uit Portugal.</div>
                 </div>
             </div>
-            <div class="boxes"></div>
                 <div id="foto"class="boxes">
                     <?php
                         $imagePath = '../img/stripedblauwproduct.png';
