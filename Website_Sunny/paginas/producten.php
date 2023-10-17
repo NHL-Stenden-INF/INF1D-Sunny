@@ -32,11 +32,10 @@
                         <div><a href="waar-te-koop.php"><button class="koopknop" type="imput">Nu kopen</button></a></div>
                     <hr class="streep">
                     <div class="productinfotitel">Productinfo</div>
-                    <div class="productinfo">Het nieuwste design van sunny socks de uni sock. 
-                    Dit is een confortable sok gemaakt van duurzaam katoen afkomstig uit Portugal.</div>
+                    <div class="productinfo"><p>Het nieuwste design van sunny socks de uni sock.<br> 
+                    Dit is een confortable sok<br> gemaakt van duurzaam katoen afkomstig uit Portugal.<p></div>
                 </div>
             </div>
-            <!-- <div class="boxes"></div> -->
                 <div id="foto"class="boxes">
                     <?php
                         $imagePath = '../img/sokblauwproduct.png';
