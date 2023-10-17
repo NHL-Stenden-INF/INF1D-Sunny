@@ -5,6 +5,7 @@
         <link rel="icon" href="../img/favicon.png" type="image/png">
         <meta charset="UTF-8">
         <link href="../css/style.css" style="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
       <header>
@@ -31,12 +32,11 @@
                         <div><a href="waar-te-koop.php"><button class="koopknop" type="imput">Nu kopen</button></a></div>
                     <hr class="streep">
                     <div class="productinfotitel">Productinfo</div>
-                    <div class="productinfo">Het nieuwste design van sunny socks de uni sock. 
-                    Dit is een confortable sok gemaakt van duurzaam katoen afkomstig uit Portugal.</div>
+                    <div class="productinfo"><p>Het nieuwste design van sunny socks de uni sock.<br> 
+                    Dit is een confortable sok<br> gemaakt van duurzaam katoen afkomstig uit Portugal.<p></div>
                 </div>
             </div>
-            <div class="boxes"></div>
-                <div class="boxes">
+                <div id="foto"class="boxes">
                     <?php
                         $imagePath = '../img/sokblauwproduct.png';
                         $geslecteerdekleur = 'blauw';
@@ -45,8 +45,6 @@
                         $imagePath ="../img/" . getImagePathForColor($geslecteerdekleur);
                         $buttonClass = "box_" . $geslecteerdekleur;
                         }
-
-
                         function getImagePathForColor($color) {
                         $imagePaths = [
                             'blauw' => 'sokblauwproduct.png',
