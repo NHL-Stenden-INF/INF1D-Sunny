@@ -15,7 +15,7 @@
         <div class="box">
             <div class="boxes">
                 <div class="infosok">
-                    <div class="titletext">Striped socks</div>
+                    <div class="titletext">Uni socks</div>
                     <div class="sunnytekst">Sunny</div>
                     <hr class="streep">
                     <div class="kleur">Kleur</div>
@@ -28,14 +28,7 @@
                             <button type="submit" name="color" value="groen" class="box_groen"></button>
                          </form>
                     </div>
-                        <div><a href="waar-te-koop.php"><button class="koopknop" type="imput">Nu kopen</button></a></div>
-                    <hr class="streep">
-                    <div class="productinfotitel">Productinfo</div>
-                    <div class="productinfo">Het originele design van sunny socks dit desgin bevat 2 strepen boven aan de sok en een witte hak.
-                         Het is een duurzame sok gemaakt door katoen afkomstig uit Portugal.</div>
-                </div>
-            </div>
-                <div id="foto"class="boxes">
+                    <div id="foto_telefoon"class="boxes">
                     <?php
                         $imagePath = '../img/stripedblauwproduct.png';
                         $geslecteerdekleur = 'blauw';
@@ -56,6 +49,25 @@
                         ];
 
                         return $imagePaths[$color];
+                        }
+                        echo '<img src="' . $imagePath . '" alt="' . $geslecteerdekleur . '" class="img">';
+                    ?>
+                </div>
+                        <div><a href="waar-te-koop.php"><button class="koopknop" type="imput">Nu kopen</button></a></div>
+                    <hr class="streep">
+                    <div class="productinfotitel">Productinfo</div>
+                    <div class="productinfo"><p>Het nieuwste design van sunny socks de uni sock.<br> 
+                    Dit is een confortable sok<br> gemaakt van duurzaam katoen afkomstig uit Portugal.<p></div>
+                </div>
+            </div>
+                <div id="foto"class="boxes">
+                    <?php
+                        $imagePath = '../img/stripedblauwproduct.png';
+                        $geslecteerdekleur = 'blauw';
+                        if(isset($_POST['color'])){ 
+                        $geslecteerdekleur = $_POST['color'];
+                        $imagePath ="../img/" . getImagePathForColor($geslecteerdekleur);
+                        $buttonClass = "box_" . $geslecteerdekleur;
                         }
                         echo '<img src="' . $imagePath . '" alt="' . $geslecteerdekleur . '" class="img">';
                     ?>
