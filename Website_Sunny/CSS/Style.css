@@ -493,9 +493,15 @@ ul{
 .textcenter{
     text-align: center;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 832px){
     .imgstring {
         display:none;
+    }
+}
+@media screen and (max-width: 633px){
+    .imgstore {
+        display: flex;
+        justify-content: center; 
     }
 }
 /*Over ons pagina*/
