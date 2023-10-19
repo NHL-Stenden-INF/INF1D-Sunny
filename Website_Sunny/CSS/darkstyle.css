@@ -1,11 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/nexa-bold');
 /* FONT NEXA GEBRUIKEN :
-font-family: 'Nexa', sans-serif;
-*/
+font-family: 'Nexa', sans-serif; */
+
 html,body{
 	margin: 0;
 	padding: 0;
     font-family: 'Nexa', sans-serif;
+    background-color: #161618 
 }
 /* header */
 @media  only screen and (max-width: 600px) {
@@ -267,6 +268,7 @@ ul{
     align-items: center;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    background-color: #161618 
 }
 @media (max-width: 930px) {
     .box{
@@ -313,10 +315,11 @@ ul{
     }
 }
 .boxes{
-    max-height: 80vh;
-    background-color: rgb(255, 255, 255);
+    /* max-height: 80vh; */
+    background-color: #161618;
     gap: 10px;
     justify-content: center;
+    color: white;
     /* margin-bottom: 40px; */
 }
 .infosok {
@@ -333,14 +336,14 @@ ul{
   }
 .streep{
     line-height: 1px;
-    background-color: black;
-    max-width: 25vw;
+    background-color: white;     
+    /* max-width: 25vw; */
     margin-top: 8px;
     margin-bottom: 4px;
 }
 @media (max-width: 930px) {
     .streep {
-      max-width: 80vw;
+      /* max-width: 80vw; */
     }
   }
 .img{
@@ -409,17 +412,17 @@ ul{
 .box_groen:hover,
 .box_rood:hover,
 .box_roze:hover{
-    box-shadow: 0 4px 0 0 #000;
+    box-shadow: 0 4px 0 0 white;
     cursor: pointer;
 }
 
 .koopknop {
     align-items: center;
-    background-color: #000;
+    background-color: white;
     width: 20vw;
     max-width: 80vw;
     height: 60px;
-    color: white;
+    color: black;
     font-size: 20px;
     margin-bottom: 35px;
     transition: 0.2s;
@@ -471,17 +474,19 @@ ul{
   
 .koopknop:hover{
     cursor: pointer;
-    box-shadow: 1px 1px 1px 1px #000;
+    box-shadow: 0px 0px 4px 4px white;
 }
 .pijltekst{
     text-align: center;
     margin-top: 30px;
     font-size: 14px;
+    color: white;
 }
 .pijl{
     margin-top: -5  px;
     width: 30px;
     height: 30px;
+    margin-bottom: 5px;
 }
 /* Waar te koop pagina */
 .containershop{
@@ -496,25 +501,14 @@ ul{
 .imgstore{
     width: 100%;
     max-width: 150px;
-    border: 3px solid #51B2A2; 
 }
 .imgstring{
     width: 100%;
     max-width: 100px;
 }
 .textcenter{
-    text-align: center;
-}
-@media screen and (max-width: 832px){
-    .imgstring {
-        display:none;
-    }
-}
-@media screen and (max-width: 633px){
-    .imgstore {
-        display: flex;
-        justify-content: center; 
-    }
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /*Over ons pagina*/
 #sunny_background_logo{
