@@ -429,13 +429,13 @@ ul{
   @media (max-width: 930px) {
     .koopknop {
       width: 80vw;
-      margin-top: 60vh;
+      margin-top: 65vh;
     }
 }
     @media (max-width: 769px) {
         .koopknop {
           width: 80vw;
-          margin-top: 20vh;
+          margin-top: 25vh;
         }
   }
   @media (max-width: 768px) {
