@@ -484,14 +484,19 @@ ul{
 .imgstore{
     width: 100%;
     max-width: 150px;
+    border: 3px solid #51B2A2; 
 }
 .imgstring{
     width: 100%;
     max-width: 100px;
 }
 .textcenter{
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+}
+@media screen and (max-width: 800px){
+    .imgstring {
+        display:none;
+    }
 }
 /*Over ons pagina*/
 #sunny_background_logo{
