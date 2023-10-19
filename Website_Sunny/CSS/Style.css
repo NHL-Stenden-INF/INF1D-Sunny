@@ -511,9 +511,10 @@ ul{
     }
 }
 @media screen and (max-width: 633px){
-    .imgstore {
+    .acenter {
         display: flex;
         justify-content: center; 
+        margin-bottom: 10px;
     }
 }
 /*Over ons pagina*/
