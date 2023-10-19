@@ -20,13 +20,18 @@
                 </ul>
                 <div>
                     <input type="checkbox" id="darkmode" > 
-                    <label for="darkmode">
+                    <label for="darkmode"></label>
                 </div>
                 <script>
-                    function myFunction() {
-                        var element = document.body;
-                        element.classList.toggle("dark-mode");
-                        }
+                    const btn = document.querySelector('#darkmode');  
+                    const background = document.querySelector('dom-stuk-tekst');
+
+                    btn.addEventListener("click", () => {
+                            if (btn.checked) {
+                                document.body.style.background = "black";
+                                console.log("geklikt");
+                            }
+                    });
                 </script>
             </div>
         </div>
