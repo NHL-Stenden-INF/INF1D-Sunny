@@ -4,13 +4,12 @@
         <title>Sunny Socks</title>
         <link rel="icon" href="../img/favicon.png" type="image/png">
         <meta charset="UTF-8">
-        <link href="../css/style.css" style="text/css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../css/darkstyle.css" style="text/css" rel="stylesheet">
     </head>
     <body>
       <header>
             <?php
-                include('../HTML/mijnheader.html');
+                include('../HTML/darkheader.html');
             ?>
         </header>
         <div class="box">
@@ -31,7 +30,7 @@
                     </div>
                     <div id="foto_telefoon"class="boxes">
                     <?php
-                        $imagePath = '../img/sokblauwproduct.png';
+                        $imagePath = '../img/stripedblauwproduct.png';
                         $geslecteerdekleur = 'blauw';
                         if(isset($_POST['color'])){ 
                         $geslecteerdekleur = $_POST['color'];
@@ -42,11 +41,11 @@
 
                         function getImagePathForColor($color) {
                         $imagePaths = [
-                            'blauw' => 'sokblauwproduct.png',
-                            'roze' => 'sokrozeproduct.png',
-                            'geel' => 'sokgeelproduct.png',
-                            'rood' => 'sokroodproduct.png',
-                            'groen' => 'sokgroenproduct.png',   
+                            'blauw' => 'stripedblauwproduct.png',
+                            'roze' => 'stripedrozeproduct.png',
+                            'geel' => 'stripedgeelproduct.png',
+                            'rood' => 'stripedroodproduct.png',
+                            'groen' => 'stripedgroenproduct.png',   
                         ];
 
                         return $imagePaths[$color];
@@ -63,20 +62,20 @@
             </div>
                 <div id="foto"class="boxes">
                     <?php
-                        $imagePath = '../img/sokblauwproduct.png';
+                        $imagePath = '../img/stripedblauwproduct.png';
                         $geslecteerdekleur = 'blauw';
                         if(isset($_POST['color'])){ 
                         $geslecteerdekleur = $_POST['color'];
                         $imagePath ="../img/" . getImagePathForColor($geslecteerdekleur);
                         $buttonClass = "box_" . $geslecteerdekleur;
-                        }   
+                        }
                         echo '<img src="' . $imagePath . '" alt="' . $geslecteerdekleur . '" class="img">';
                     ?>
                 </div>
             </div>
-            <div class="pijltekst">Striped soks
+            <div class="pijltekst">Uni socks
                 <div>
-                  <a href="stripedsokproducten.php"><i><img src="../img/pijlnaarsokken.png" alt="pijl" class="pijl"></i></a>
+                  <a href="producten.php"><i><img src="../img/wittepijl.png" alt="pijl" class="pijl"></i></a>
                 </div>
             </div>
         <footer>
