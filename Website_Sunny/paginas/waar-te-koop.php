@@ -13,8 +13,10 @@
         include ('../html/mijnheader.html');
     ?>
     <div>
-        <h1 class="textcenter"><b>Waar te koop</b></h1>
-        <div class="containershop">
+        <div class="textcenter">
+            <h1><b>Waar te koop</b></h1>
+        </div>
+            <div class="containershop">
             <div>
                 <img src="../img/sokken_string.png" alt="Sokken string" class="imgstring">
             </div>
