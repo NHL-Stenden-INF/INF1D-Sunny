@@ -30,27 +30,32 @@
                     </div>
                     <div id="foto_telefoon"class="boxes">
                     <?php
-                        $imagePath = '../img/stripedblauwproduct.png';
+                        //standaart foto instellen als je de pagina inlaad
+                        $fotopad = '../img/sokblauwproduct.png';
                         $geslecteerdekleur = 'blauw';
-                        if(isset($_POST['color'])){ 
-                        $geslecteerdekleur = $_POST['color'];
-                        $imagePath ="../img/" . getImagePathForColor($geslecteerdekleur);
-                        $buttonClass = "box_" . $geslecteerdekleur;
+
+                        //if statement die kijkt welke knop er is gedrukt en welke value daarbij hoort
+                        if(isset($_POST['kleur'])){ 
+                        $geslecteerdekleur = $_POST['kleur'];
+                        //pad naar de map waar de foto's instaan instellen
+                        $fotopad ="../img/" . getImagePathForColor($geslecteerdekleur);
+                        $knopclass = "box_" . $geslecteerdekleur;
                         }
 
-
-                        function getImagePathForColor($color) {
-                        $imagePaths = [
-                            'blauw' => 'stripedblauwproduct.png',
-                            'roze' => 'stripedrozeproduct.png',
-                            'geel' => 'stripedgeelproduct.png',
-                            'rood' => 'stripedroodproduct.png',
-                            'groen' => 'stripedgroenproduct.png',   
+                        //kleuren linken aan foto
+                        function getImagePathForColor($kleur) {
+                        $fotopad = [
+                            'blauw' => 'sokblauwproduct.png',
+                            'roze' => 'sokrozeproduct.png',
+                            'geel' => 'sokgeelproduct.png',
+                            'rood' => 'sokroodproduct.png',
+                            'groen' => 'sokgroenproduct.png',   
                         ];
 
-                        return $imagePaths[$color];
+                        return $fotopad[$kleur];
                         }
-                        echo '<img src="' . $imagePath . '" alt="' . $geslecteerdekleur . '" class="img">';
+                        //foto veranderen naar de juiste kleur
+                        echo '<img src="' . $fotopad . '" alt="' . $geslecteerdekleur . '" class="img">';
                     ?>
                 </div>
                         <div><a href="waar-te-koop.php"><button class="koopknop" type="imput">Nu kopen</button></a></div>
@@ -62,15 +67,20 @@
             </div>
                 <div id="foto"class="boxes">
                     <?php
-                        $imagePath = '../img/stripedblauwproduct.png';
-                        $geslecteerdekleur = 'blauw';
-                        if(isset($_POST['color'])){ 
-                        $geslecteerdekleur = $_POST['color'];
-                        $imagePath ="../img/" . getImagePathForColor($geslecteerdekleur);
-                        $buttonClass = "box_" . $geslecteerdekleur;
-                        }
-                        echo '<img src="' . $imagePath . '" alt="' . $geslecteerdekleur . '" class="img">';
-                    ?>
+                            //standaart foto instellen als je de pagina inlaad
+                            $fotopad = '../img/sokblauwproduct.png';
+                            $geslecteerdekleur = 'blauw';
+
+                            //if statement die kijkt welke knop er is gedrukt en welke value daarbij hoort
+                            if(isset($_POST['kleur'])){ 
+                            $geslecteerdekleur = $_POST['kleur'];
+                            //pad naar de map waar de foto's instaan instellen
+                            $fotopad ="../img/" . getImagePathForColor($geslecteerdekleur);
+                            $knopclass = "box_" . $geslecteerdekleur;
+                            }
+                            //foto veranderen naar de juiste kleur
+                            echo '<img src="' . $fotopad . '" alt="' . $geslecteerdekleur . '" class="img">';
+                        ?>
                 </div>
             </div>
             <div class="pijltekst">Uni socks

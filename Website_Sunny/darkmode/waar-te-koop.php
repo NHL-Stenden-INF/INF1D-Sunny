@@ -21,7 +21,7 @@
             <div>
                 <img src="../img/blue_striped.png" alt="Blue Striped" class="imgsok">
                 <div>
-                    <a href="https://hema.nl"><img src="../img/hema.jpg" alt="Hema Logo" class="imgstore"></a>
+                    <img src="../img/hema.jpg" alt="Hema Logo" class="imgstore"><a href="https://hema.nl"></a>
                     <a href="https://bol.com"><img src="../img/bol.jpg" alt="Bol.com Logo" class="imgstore"></a>
                 </div>
             </div>
