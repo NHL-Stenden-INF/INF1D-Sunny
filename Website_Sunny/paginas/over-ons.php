@@ -43,7 +43,7 @@
                 <p>
                 Wij verkopen onze sokken via<br>
                  de webshop bol.com en <br>
-                 online of in de winkel bij de hema!<br>
+                 online of in de winkel bij HEMA!<br>
                 </p>  
             </div>
             <div id="information_box_deco_bottom_2"></div>
@@ -53,7 +53,7 @@
                 <img src="../img/circle-phone-flip.png" alt="Contact Gegevens" id="over_ons_contact_png">
                 <p>
                     Adres: Van Schaikweg 94, Emmen<br>
-                    Telefoonnummer: 062318493
+                    Telefoonnummer: 062318493<br>
                     Email: sunny@info.com
                 </p>
                 
