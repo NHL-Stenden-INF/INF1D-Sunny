@@ -12,6 +12,8 @@
                 include ('../html/mijnheader.html');
             ?>
         </header>
+        <div id="over_ons_empty_space">
+        </div>
         <div id="wie_zijn_wij">
             <h1>Wie zijn wij?</h1>
             <p>Wij zijn Sunny. Ons doel is om duurzame sokken te maken die goed<br>
