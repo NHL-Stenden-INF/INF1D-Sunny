@@ -45,11 +45,11 @@
                         //kleuren linken aan foto
                         function getImagePathForColor($kleur) {
                         $fotopad = [
-                            'blauw' => 'sokblauwproduct.png',
-                            'roze' => 'sokrozeproduct.png',
-                            'geel' => 'sokgeelproduct.png',
-                            'rood' => 'sokroodproduct.png',
-                            'groen' => 'sokgroenproduct.png',   
+                            'blauw' => 'stripedblauwproduct.png',
+                            'roze' => 'stripedrozeproduct.png',
+                            'geel' => 'stripedgeelproduct.png',
+                            'rood' => 'stripedroodproduct.png',
+                            'groen' => 'stripedgroenproduct.png',    
                         ];
 
                         return $fotopad[$kleur];
