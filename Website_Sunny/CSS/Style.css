@@ -515,17 +515,15 @@ ul{
     opacity: 10%;
     width: 100%;
     height: 100%;
-    position: 0px;
 }
 #wie_zijn_wij{
     position: absolute;
     text-align: center;
-    top: 15vw;
     left: 10vw;
     right: 10vw;
     font-family: 'nexa', sans-serif;
     font-size: 32px;
-    width: 80%
+    width: 80vw;
 }
 #information_grid{
     display: grid;
@@ -538,6 +536,7 @@ ul{
     background-color: #51B2A2;
     text-align: center;
     font-family: 'nexa', sans-serif;
+    font-size: 80%;
     position: relative;
     z-index: 1;
 }
@@ -632,16 +631,9 @@ ul{
     z-index: 2;
 }
 /*Over ons pagina telefoon versie*/
-#sunny_background_logo{
-    opacity: 10%;
-    width: 100%;
-    height: 100%;
-    position: 0px;
-}
 #wie_zijn_wij_tel{
     position: absolute;
     text-align: center;
-    top: 20vw;
     left: 10vw;
     right: 10vw;
     font-family: 'nexa', sans-serif;
@@ -652,19 +644,6 @@ ul{
     display: grid;
     grid-template-columns: 20vw 60vw 20vw;
     grid-template-rows: 10vw 80vw 10vw 80vw 10vw 80vw 20vw;
-}
-.information_grid-item{
-    width: 100%;
-    height: 100%;
-    background-color: #51B2A2;
-    font-size: medium;
-    text-align: center;
-    font-family: 'nexa', sans-serif;
-    position: relative;
-    z-index: 1;
-}
-.information_title{
-    margin-top: 20%;
 }
 #over_ons_duurzaamheid_tel{
     grid-column: 2;
