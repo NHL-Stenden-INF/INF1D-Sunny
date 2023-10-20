@@ -14,9 +14,14 @@
             <div class="banner_sok"> 
                 <div>
                     <img src="../img/groenesokbanner.png" class="banners" alt="groene sok banner">
+                    <div class="tekst-in-banner">
+                        <div><p id="nieuw-design" class="banner-tekst">Nieuw Design</p></div>
+                        <div><p id="tekst_unicolor" class="banner-tekst">Ervaar comfort en stijl nu met onze nieuwe <br> Uni Color socks!</p></div>
+                    </div>
+                    <div></div>
                 </div>
                 <div class="tekst-in-banner">
-                    <p id="nieuw-design" class="banner-tekst">Nieuw Design</p>
+                    <!-- <p id="nieuw-design" class="banner-tekst">Nieuw Design</p> -->
                     <h1 id="uni-color" class="banner-tekst">Uni Color</h1>
                     <p id="tekst_unicolor" class="banner-tekst">Ervaar comfort en stijl nu met onze nieuwe <br> Uni Color socks!</p>
                     <div id="bestel-nu">
