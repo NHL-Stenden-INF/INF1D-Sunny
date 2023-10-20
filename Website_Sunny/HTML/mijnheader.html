@@ -18,6 +18,25 @@
                 <ul>
                     <li class="header-list"><a href="../paginas/over-ons.php"><h3>Over Sunny</h3></a></li>
                 </ul>
+                <div>
+                    <input type="checkbox" id="darkmode" > 
+                    <label for="darkmode"></label>
+                </div>
+                <script>
+                    const btn = document.querySelector('#darkmode');  
+                    const background = document.querySelector('dom-stuk-tekst');
+
+                    btn.addEventListener("click", () => {
+                            if (btn.checked) {
+                                document.body.style.background = "black";
+                                document.body.style.color = "white";
+                                console.log("geklikt");
+                            } else {
+                                document.body.style.background = "white";
+                                document.body.style.color = "black";
+                            }
+                    });
+                </script>
             </div>
         </div>
         </nav>
