@@ -9,6 +9,9 @@ html,body{
 }
 /* header */
 @media  only screen and (max-width: 600px) {
+    .input-div{
+        visibility: hidden;
+    }
     .items-container{
         display: flex;
         flex-direction: column;
@@ -57,9 +60,6 @@ input:checked + label {
 }
 label, label:after {
     transition: 0.3s
-}
-input:checked + label + .dom-stuk-tekst{
-    background-color:#242424;
 }
 .header-container{
     background-color: #51B2A2;
@@ -357,7 +357,6 @@ ul{
 }
 .boxes{
     max-height: 80vh;
-    background-color: rgb(255, 255, 255);
     gap: 10px;
     justify-content: center;
     /* margin-bottom: 40px; */
