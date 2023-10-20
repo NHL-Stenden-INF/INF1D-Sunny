@@ -228,6 +228,10 @@ ul{
     text-align: center;
     font-size: 20px;
 } 
+.doos{
+    display: flex;
+    margin: 20px;
+}
 /* Product   */
 .box{
     display: flex;

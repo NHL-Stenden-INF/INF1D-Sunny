@@ -24,10 +24,10 @@
     <div class="sunnyinformatie">Het nieuwe duurzame design van sunny socks is nu eindelijk hier de uni</div>
     <div class="sunnyinformatie"> socks!</div>
     <div class="doos">
-        <div class="dozen"></div>
-        <div class="dozen"></div>
-        <div class="dozen"></div>
-        <div class="dozen"></div>
+        <div class="dozen">tes</div>
+        <div class="dozen">tes</div>
+        <div class="dozen">tes</div>
+        <div class="dozen">tes</div>
     </div>
     <?php
             include ('../html/footer.html');
