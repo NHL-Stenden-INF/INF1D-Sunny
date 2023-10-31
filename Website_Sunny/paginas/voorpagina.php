@@ -18,7 +18,7 @@
             <div class="uni-color">Uni color</div>
             <div class="unitekst">Ervaar comfort en stijl nu met onze nieuwe</div>
             <div>Uni Color socks!</div>
-            <div><a href="productpagina.php"><button class="bestel-nu" type="imput">Bestel nu</button></a></div>
+            <div><a href="producten.php"><button class="bestel-nu" type="imput">Bestel nu</button></a></div>
         </div>
     </div>
     <div class="sunnyinformatie">Het nieuwe duurzame design van sunny socks is nu eindelijk hier de uni</div>
