@@ -24,7 +24,7 @@
             <div id="information_box_deco_top_1"></div>
             <div id="over_ons_duurzaamheid" class="information_grid-item">
                 <h2 class="information_title">Duurzaamheid</h2>
-                <img src="../img/hand-holding-seeding.png" alt="Duurzaamheid" id="over_ons_duurzaamheid_png">
+                <img src="../img/duurzaam_zwart.png" alt="Duurzaamheid" id="over_ons_duurzaamheid_png">
                 <p> 
                     Wij van Sunny Socks maken<br>
                     duurzame sokken die gemaakt zijn<br>
