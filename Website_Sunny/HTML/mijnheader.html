@@ -1,4 +1,3 @@
-<!-- <link rel="stylesheet" href="../CSS/Style.css"> -->
 <header>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <nav>
@@ -23,14 +22,21 @@
                     <label for="darkmode"></label>
                 </div>
                 <script>
-                    const btn = document.querySelector('#darkmode');  
+                    //Hier voeg ik een variabele toe die de button info
+                    //ophaalt zodat ik die kan gebruiken in mijn JS
+                    const btn = document.querySelector('#darkmode'); 
+                    //Hier maak ik nog een variabele aan voor de achtergrond
+                    //die ik ga aanpassen op het moment dat de eventListener triggert
                     const background = document.querySelector('dom-stuk-tekst');
-
+                    
+                    //Hier voeg ik op de variabele 'btn' een eventListener aan
+                    //op het moment dat de evenListener triggert, triggert de 
+                    //eventListener zelf een functie die de achtergrond van de pagina
+                    //aanpast.
                     btn.addEventListener("click", () => {
                             if (btn.checked) {
                                 document.body.style.background = "black";
                                 document.body.style.color = "white";
-                                console.log("geklikt");
                             } else {
                                 document.body.style.background = "white";
                                 document.body.style.color = "black";
