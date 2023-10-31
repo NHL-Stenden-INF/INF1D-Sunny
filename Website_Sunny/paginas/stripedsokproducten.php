@@ -15,7 +15,7 @@
         <div class="box">
             <div class="boxes">
                 <div class="infosok">
-                    <div class="titletext">Uni socks</div>
+                    <div class="titletext">Striped socks</div>
                     <div class="sunnytekst">Sunny</div>
                     <hr class="streep">
                     <div class="kleur">Kleur</div>
@@ -31,7 +31,7 @@
                     <div id="foto_telefoon"class="boxes">
                     <?php
                         //standaart foto instellen als je de pagina inlaad
-                        $fotopad = '../img/sokblauwproduct.png';
+                        $fotopad = '../img/stripedblauwproduct.png';
                         $geslecteerdekleur = 'blauw';
 
                         //if statement die kijkt welke knop er is gedrukt en welke value daarbij hoort
@@ -68,7 +68,7 @@
                 <div id="foto"class="boxes">
                     <?php
                             //standaart foto instellen als je de pagina inlaad
-                            $fotopad = '../img/sokblauwproduct.png';
+                            $fotopad = '../img/stripedblauwproduct.png';
                             $geslecteerdekleur = 'blauw';
 
                             //if statement die kijkt welke knop er is gedrukt en welke value daarbij hoort

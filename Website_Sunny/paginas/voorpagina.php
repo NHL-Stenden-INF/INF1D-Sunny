@@ -25,21 +25,21 @@
     <div class="sunnyinformatie"> socks!</div>
     <div class="doos">
         <div class="dozen">
-        <img src="../img/hand-holding-seeding.png" alt="duurzaam" class="omschrijvingfoto">Duurzaam!
+        <img src="../img/duurzaam_zwart.png" alt="duurzaam" class="omschrijvingfoto">Duurzaam!
             <div class="sunnytekstomschrijving">De sokken van uni socks worden van portugees katoen gemaakt, werknemers worden dus goed betaald en het is ook nog is goed voor de aarde!</div>
         </div>
         <div class="dozen">
-        <img src="../img/magic-wand.png" alt="Stylish" class="omschrijvingfoto">Stylish design
+        <img src="../img/stylish_zwart.png" alt="Stylish" class="omschrijvingfoto">Stylish design
             <div class="sunnytekstomschrijving">Met een modern en veelzijdig ontwerp dat bij elke outfit past</div>
         </div>
     </div>
     <div class="doos">
     <div class="dozen">
-    <img src="../img/grin.png" alt="Comfortabel" class="omschrijvingfoto">Comfortabel
+    <img src="../img/comfortable_zwart.png" alt="Comfortabel" class="omschrijvingfoto">Comfortabel
             <div class="sunnytekstomschrijving">Doordat de sokken van hogekwaliteit katoen zijn gemaakt zitten ze gegarandeerd goed.</div>
         </div>
         <div class="dozen">
-        <img src="../img/palette.png" alt="Kleuren" class="omschrijvingfoto">Groot assortiment in kleuren
+        <img src="../img/kleuren_zwart.png" alt="Kleuren" class="omschrijvingfoto">Groot assortiment in kleuren
             <div class="sunnytekstomschrijving">Kies uit een verscheidenheid aan levendige kleuren om uw persoonlijke stijl tot uitdrukking te brengen</div>
         </div>
     </div>
