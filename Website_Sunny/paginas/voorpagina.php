@@ -35,7 +35,7 @@
     </div>
     <div class="doos">
     <div class="dozen">
-    <img src="../img/grin.png" alt="Comfortabel" class="omschrijvingfoto">Confortabel
+    <img src="../img/grin.png" alt="Comfortabel" class="omschrijvingfoto">Comfortabel
             <div class="sunnytekstomschrijving">Doordat de sokken van hogekwaliteit katoen zijn gemaakt zitten ze gegarandeerd goed.</div>
         </div>
         <div class="dozen">
