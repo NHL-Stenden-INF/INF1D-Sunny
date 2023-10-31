@@ -25,10 +25,15 @@
                     //Hier voeg ik een variabele toe die de button info
                     //ophaalt zodat ik die kan gebruiken in mijn JS
                     const btn = document.querySelector('#darkmode'); 
-                    //Hier maak ik nog een variabele aan voor de achtergrond
-                    //die ik ga aanpassen op het moment dat de eventListener triggert
-                    const background = document.querySelector('dom-stuk-tekst');
-                    
+                    const png1 = document.getElementById("voorpagina-png-1");
+                    const png2 = document.getElementById("voorpagina-png-2");
+                    const png3 = document.getElementById("voorpagina-png-3");
+                    const png4 = document.getElementById("voorpagina-png-4");
+                    const png1white = "duurzaam_wit.png";
+                    const png2white = "kleuren_wit.png";
+                    const png3white = "comfortable_wit.png";
+                    const png4white = "stylish_wit.png";
+
                     //Hier voeg ik op de variabele 'btn' een eventListener aan
                     //op het moment dat de evenListener triggert, triggert de 
                     //eventListener zelf een functie die de achtergrond van de pagina
@@ -37,6 +42,7 @@
                             if (btn.checked) {
                                 document.body.style.background = "black";
                                 document.body.style.color = "white";
+                                png1.src = png1white;
                             } else {
                                 document.body.style.background = "white";
                                 document.body.style.color = "black";
