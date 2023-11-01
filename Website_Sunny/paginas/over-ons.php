@@ -47,9 +47,7 @@
                 de webshop bol.com en <br>
                 online of in de winkel bij HEMA!<br>
             </p>
-            <br>
-            <br>
-            <br>
+<!--There used to be a small contribution from someone here...-->
         </div>
         <div id="information_box_deco_bottom_2"></div>
         <div id="information_box_deco_top_3"></div>
