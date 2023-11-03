@@ -10,12 +10,13 @@ html,body{
 /* header */
 @media  only screen and (max-width: 600px) {
     .input-div{
-        visibility: hidden;
+        display: none;
     }
     .items-container{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin: 0;
     }
     ul{
         max-height: 5vh;
@@ -100,6 +101,9 @@ a{
         flex-direction: column;
         align-items: center;
     }
+    .footertekst{
+        align-items: center;
+    }
 }
 .footer-img-picto{
     display: flex;
@@ -130,6 +134,7 @@ h3{
 ul{
     list-style-type: none;
     font-family: 'Nexa', sans-serif;
+    text-align: center;
 }
 .contact-img-footer{
     max-width: 4vw;
