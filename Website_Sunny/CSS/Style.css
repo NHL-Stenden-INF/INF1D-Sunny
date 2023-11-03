@@ -25,6 +25,7 @@ html,body{
     }
 }
 label{
+    margin-bottom: 25px;
     width: 80px;
     height:35px;
     position: relative;
@@ -88,6 +89,7 @@ a{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .sunnylogo-header-img{
+    margin-top: 10px;
     max-width: 15vw;
     max-height: 10vh;
 }
