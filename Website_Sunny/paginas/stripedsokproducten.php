@@ -85,7 +85,7 @@
             </div>
             <div class="pijltekst">Uni socks
                 <div>
-                  <a href="producten.php"><i><img src="../img/pijlnaarsokken.png" alt="pijl" class="pijl"></i></a>
+                  <a href="producten.php"><i><img src="../img/navigatiepijl_groen.png" alt="pijl" class="pijl"></i></a>
                 </div>
             </div>
         <footer>

@@ -86,7 +86,7 @@
             </div>
             <div class="pijltekst">Striped soks
                 <div>
-                  <a href="stripedsokproducten.php"><i><img src="../img/pijlnaarsokken.png" alt="pijl" class="pijl"></i></a>
+                  <a href="stripedsokproducten.php"><i><img src="../img/navigatiepijl_groen.png" alt="pijl" class="pijl"></i></a>
                 </div>
             </div>
         <footer>
