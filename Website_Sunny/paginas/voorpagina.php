@@ -46,5 +46,7 @@
     <?php
         include ('../html/footer.html');
     ?>
+    <script>
+    </script>
 </body>
 </html>
