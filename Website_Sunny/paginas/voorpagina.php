@@ -44,7 +44,7 @@
         </div>
     </div>
     <?php
-        include ('../html/footer.html');
+        include ('../html/Footer.html');
     ?>
     <script>
     </script>
