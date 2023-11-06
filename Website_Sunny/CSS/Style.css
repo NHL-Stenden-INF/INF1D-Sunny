@@ -76,7 +76,6 @@ label, label:after {
 }
 .img-header-div{
     align-self: flex-start;
-    margin-left: -3vw;
 }
 header {
     position: sticky;
