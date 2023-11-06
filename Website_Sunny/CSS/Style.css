@@ -24,6 +24,9 @@ html,body{
     header{
         position: relative;
     }
+    .img-header-div{
+        margin-left: 15px;
+    }
 }
 label{
     margin-bottom: 25px;
@@ -73,7 +76,6 @@ label, label:after {
 }
 .img-header-div{
     align-self: flex-start;
-    margin-left: -3vw;
 }
 header {
     position: sticky;

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link href="../css/Style.css" style="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Voorpagina</title>
+    <title>Sunny</title>
 </head>
 <body>
     <?php
